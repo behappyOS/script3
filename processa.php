@@ -60,7 +60,7 @@ $cnpj= explode(',', $ler );
        // }
       //  else {
 
-            $data = file_get_contents("https://bi.exametoxicologico.com.br/api/cnpjs/{$value}/receitaws/30");
+            $data = file_get_contents("localhost/api/cnpjs/{$value}/receitaws/30");
 
             $obj = json_decode($data, true);
 
